@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 13-06-2021 a las 07:51:31
+-- Tiempo de generación: 16-06-2021 a las 06:07:49
 -- Versión del servidor: 10.4.18-MariaDB
 -- Versión de PHP: 8.0.5
 
@@ -28836,7 +28836,53 @@ INSERT INTO `tbl_bitacora` (`Id_bitacora`, `Id_usuario`, `Id_objeto`, `Fecha`, `
 (24538, 1, 4, '2021-06-09 01:17:22', 'Ingreso', 'A Gestion de Usuarios'),
 (24539, 1, 10, '2021-06-09 01:17:49', 'Ingreso', 'A Gestion de permisos usuarios'),
 (24540, 1, 8, '2021-06-09 01:19:20', 'Ingreso', 'A Bitacora del sistema'),
-(24541, 1, 8, '2021-06-09 01:20:26', 'Ingreso', 'A Bitacora del sistema');
+(24541, 1, 8, '2021-06-09 01:20:26', 'Ingreso', 'A Bitacora del sistema'),
+(24542, 75, 8, '2021-06-13 00:00:15', 'Ingreso', 'A Bitacora del sistema'),
+(24543, 75, 8, '2021-06-13 00:04:14', 'Ingreso', 'A Bitacora del sistema'),
+(24544, 75, 8, '2021-06-13 00:04:39', 'Ingreso', 'A Bitacora del sistema'),
+(24545, 75, 8, '2021-06-13 00:05:24', 'Ingreso', 'A Bitacora del sistema'),
+(24546, 75, 50, '2021-06-13 10:11:36', 'INGRESO', 'A REGISTRAR DOCENTE.'),
+(24547, 75, 92, '2021-06-13 10:11:48', 'Ingresó', 'a mantenimiento de dias feriados'),
+(24548, 75, 2, '2021-06-13 10:12:46', 'Ingreso', 'A Gestion de Preguntas'),
+(24549, 75, 2, '2021-06-13 10:12:50', 'Ingreso', 'A Gestion de Preguntas'),
+(24550, 75, 13, '2021-06-13 10:13:09', 'INGRESO', 'A INSCRIPCION CHARLA.'),
+(24551, 75, 64, '2021-06-13 10:14:03', 'Ingreso', 'A Mantenimiento/Crear Comision'),
+(24552, 75, 82, '2021-06-13 10:14:20', 'Ingreso', 'A Mantenimiento/Crear Aula'),
+(24553, 75, 60, '2021-06-13 10:14:41', 'Ingreso', 'A Mantenimiento Aulas'),
+(24554, 75, 8, '2021-06-13 11:18:09', 'Ingreso', 'A Bitacora del sistema'),
+(24555, 75, 8, '2021-06-13 11:19:31', 'Ingreso', 'A Bitacora del sistema'),
+(24556, 75, 3, '2021-06-13 11:24:02', 'Ingreso', 'A Crear Usuarios'),
+(24557, 75, 8, '2021-06-13 11:32:46', 'Ingreso', 'A Bitacora del sistema'),
+(24558, 75, 57, '2021-06-13 11:33:39', 'Ingreso', 'A Mantenimiento Comisiones'),
+(24559, 75, 8, '2021-06-13 11:38:35', 'Ingreso', 'A Bitacora del sistema'),
+(24560, 75, 8, '2021-06-13 11:40:43', 'Ingreso', 'A Bitacora del sistema'),
+(24561, 75, 34, '2021-06-13 11:41:19', 'INGRESO', 'A REVISION LISTA DE FINALIZACION PRACTICA'),
+(24562, 75, 34, '2021-06-13 11:47:24', 'INGRESO', 'A REVISION LISTA DE FINALIZACION PRACTICA'),
+(24563, 75, 8, '2021-06-13 11:47:29', 'Ingreso', 'A Bitacora del sistema'),
+(24564, 75, 34, '2021-06-13 11:47:49', 'INGRESO', 'A REVISION LISTA DE FINALIZACION PRACTICA'),
+(24565, 75, 2, '2021-06-13 12:37:28', 'Ingreso', 'A Gestion de Preguntas'),
+(24566, 75, 2, '2021-06-13 12:46:18', 'Ingreso', 'A Gestion de Preguntas'),
+(24567, 75, 34, '2021-06-13 12:49:49', 'INGRESO', 'A REVISION LISTA DE FINALIZACION PRACTICA'),
+(24568, 75, 35, '2021-06-13 12:49:59', 'INGRESO', 'A REVISION LISTA CAMBIO DE CARRERA'),
+(24569, 75, 35, '2021-06-13 12:50:11', 'INGRESO', 'A REVISION LISTA CAMBIO DE CARRERA'),
+(24570, 75, 35, '2021-06-13 12:50:22', 'INGRESO', 'A REVISION LISTA CAMBIO DE CARRERA'),
+(24571, 75, 8, '2021-06-13 12:51:38', 'Ingreso', 'A Bitacora del sistema'),
+(24572, 75, 8, '2021-06-13 21:08:58', 'Ingreso', 'A Bitacora del sistema'),
+(24573, 75, 61, '2021-06-13 21:10:21', 'Ingreso', 'A Mantenimiento Grado Académico'),
+(24574, 75, 2, '2021-06-13 21:10:36', 'Ingreso', 'A Gestion de Preguntas'),
+(24575, 75, 4, '2021-06-13 21:10:48', 'Ingreso', 'A Gestion de Usuarios'),
+(24576, 75, 35, '2021-06-13 21:11:19', 'INGRESO', 'A REVISION LISTA CAMBIO DE CARRERA'),
+(24577, 75, 31, '2021-06-13 21:11:43', 'INGRESO', 'A SOLICITUD CARTA DE EGRESADO'),
+(24578, 75, 57, '2021-06-13 21:12:38', 'Ingreso', 'A Mantenimiento Comisiones'),
+(24579, 75, 8, '2021-06-13 22:07:18', 'Ingreso', 'A Bitacora del sistema'),
+(24580, 75, 2, '2021-06-13 23:56:35', 'Ingreso', 'A Gestion de Preguntas'),
+(24581, 75, 4, '2021-06-13 23:56:44', 'Ingreso', 'A Gestion de Usuarios'),
+(24582, 75, 5, '2021-06-13 23:57:34', 'Ingreso', 'A Crear roles'),
+(24583, 75, 6, '2021-06-13 23:57:46', 'Ingreso', 'A Gestion de Roles'),
+(24584, 75, 10, '2021-06-13 23:58:00', 'Ingreso', 'A Gestion de permisos usuarios'),
+(24585, 75, 9, '2021-06-13 23:58:31', 'Ingreso', 'A Permisos a roles y pantallas'),
+(24586, 75, 92, '2021-06-14 17:53:26', 'Ingresó', 'a mantenimiento de dias feriados'),
+(24587, 75, 92, '2021-06-14 17:53:43', 'Ingresó', 'a mantenimiento de dias feriados');
 
 -- --------------------------------------------------------
 
@@ -30695,8 +30741,46 @@ CREATE TABLE `tbl_movil_bitacoras` (
   `objeto_id` bigint(20) NOT NULL,
   `accion` varchar(45) NOT NULL,
   `descripcion` varchar(100) DEFAULT NULL,
-  `fecha y hora` datetime DEFAULT NULL
+  `fecha` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Volcado de datos para la tabla `tbl_movil_bitacoras`
+--
+
+INSERT INTO `tbl_movil_bitacoras` (`id`, `usuario_id`, `objeto_id`, `accion`, `descripcion`, `fecha`) VALUES
+(4, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-13 23:47:13'),
+(5, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-13 23:47:17'),
+(6, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-13 23:48:36'),
+(7, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-13 23:48:42'),
+(8, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-13 23:48:45'),
+(9, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-13 23:48:47'),
+(10, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-13 23:49:13'),
+(11, 1, 30, 'ingreso', 'qwewqweqeq', '2021-06-14 07:49:58'),
+(12, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-13 23:50:09'),
+(13, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-13 23:52:26'),
+(14, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-13 23:52:43'),
+(15, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-13 23:52:49'),
+(16, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-13 23:53:07'),
+(18, 75, 123, 'INGRESO', 'A GESTION DE NOTIFICACIONES ', '2021-06-13 23:55:47'),
+(19, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-13 23:55:53'),
+(20, 75, 123, 'INGRESO', 'A GESTION DE NOTIFICACIONES ', '2021-06-14 00:03:21'),
+(21, 75, 123, 'INGRESO', 'A GESTION DE NOTIFICACIONES ', '2021-06-14 00:14:17'),
+(22, 75, 123, 'INGRESO', 'A GESTION DE NOTIFICACIONES ', '2021-06-14 00:16:29'),
+(23, 75, 123, 'INGRESO', 'A GESTION DE NOTIFICACIONES ', '2021-06-14 00:16:34'),
+(24, 75, 123, 'INGRESO', 'A GESTION DE NOTIFICACIONES ', '2021-06-14 00:16:36'),
+(25, 75, 123, 'INGRESO', 'A GESTION DE NOTIFICACIONES ', '2021-06-14 00:33:07'),
+(26, 75, 123, 'INGRESO', 'A GESTION DE NOTIFICACIONES ', '2021-06-14 00:47:33'),
+(27, 75, 127, 'INGRESO', 'A GESTION DE SEGMENTOS ', '2021-06-14 00:47:47'),
+(28, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-14 00:47:51'),
+(29, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-14 17:35:33'),
+(30, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-14 17:35:48'),
+(31, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-14 17:46:38'),
+(32, 75, 123, 'INGRESO', 'A GESTION DE NOTIFICACIONES ', '2021-06-14 17:46:50'),
+(33, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-14 17:46:53'),
+(34, 75, 127, 'INGRESO', 'A GESTION DE SEGMENTOS ', '2021-06-14 17:55:08'),
+(35, 75, 128, 'Ingreso', 'A Bitacora del sistema movil', '2021-06-14 18:26:28'),
+(36, 75, 123, 'INGRESO', 'A GESTION DE NOTIFICACIONES ', '2021-06-14 18:26:57');
 
 -- --------------------------------------------------------
 
@@ -30724,7 +30808,7 @@ CREATE TABLE `tbl_movil_noticias` (
   `id` int(11) NOT NULL,
   `titulo` varchar(45) NOT NULL,
   `descripcion` longtext NOT NULL,
-  `fecha y hora` datetime NOT NULL,
+  `fecha` datetime NOT NULL,
   `fecha de vencimiento` datetime NOT NULL,
   `remitente` varchar(45) NOT NULL,
   `segmento_id` int(11) NOT NULL
@@ -30751,12 +30835,19 @@ CREATE TABLE `tbl_movil_notificaciones` (
   `id` int(11) NOT NULL,
   `titulo` varchar(45) NOT NULL,
   `descripcion` varchar(255) NOT NULL,
-  `fecha y hora` datetime NOT NULL,
+  `fecha` datetime NOT NULL,
   `remitente` varchar(45) DEFAULT NULL,
   `segmento_id` int(11) NOT NULL,
   `tipo_notificacion_id` int(11) NOT NULL,
   `image_enable` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Volcado de datos para la tabla `tbl_movil_notificaciones`
+--
+
+INSERT INTO `tbl_movil_notificaciones` (`id`, `titulo`, `descripcion`, `fecha`, `remitente`, `segmento_id`, `tipo_notificacion_id`, `image_enable`) VALUES
+(1, 'prueba noticia', 'asdadandjkahnjkldhnajkldklajd', '2021-06-14 08:16:06', 'admin', 1, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -30788,6 +30879,13 @@ CREATE TABLE `tbl_movil_segmentos` (
   `fecha de creacion` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Volcado de datos para la tabla `tbl_movil_segmentos`
+--
+
+INSERT INTO `tbl_movil_segmentos` (`id`, `nombre`, `descripcion`, `creado por`, `fecha de creacion`) VALUES
+(1, 'estudiantes', 'estudiantes unah', 'admin', '2021-06-14 08:12:40');
+
 -- --------------------------------------------------------
 
 --
@@ -30798,6 +30896,13 @@ CREATE TABLE `tbl_movil_segmento_usuario` (
   `usuario_id` bigint(20) NOT NULL,
   `segmento_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Volcado de datos para la tabla `tbl_movil_segmento_usuario`
+--
+
+INSERT INTO `tbl_movil_segmento_usuario` (`usuario_id`, `segmento_id`) VALUES
+(75, 1);
 
 -- --------------------------------------------------------
 
@@ -30820,6 +30925,13 @@ CREATE TABLE `tbl_movil_tipo_notificaciones` (
   `id` int(11) NOT NULL,
   `descripcion` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Volcado de datos para la tabla `tbl_movil_tipo_notificaciones`
+--
+
+INSERT INTO `tbl_movil_tipo_notificaciones` (`id`, `descripcion`) VALUES
+(1, 'notificaion normal');
 
 -- --------------------------------------------------------
 
@@ -31539,7 +31651,14 @@ INSERT INTO `tbl_objetos` (`Id_objeto`, `objeto`, `descripcion`) VALUES
 (118, 'g_cargajefatura', 'g_cargajefatura'),
 (119, 'g_reasignacionjefatura', 'g_reasignacionjefatura'),
 (120, 'g_planificacionjefatura', 'g_planificacionjefatura'),
-(121, 'jefatura', 'jefatura');
+(121, 'jefatura', 'jefatura'),
+(122, 'crear_notificacion_vista', 'creacion de notificaciones'),
+(123, 'gestion_notificaciones_vista', 'gestionar notificaciones'),
+(124, 'crear_noticia_vista', 'creacion de noticias'),
+(125, 'gestion_noticias_vista', 'gestionar noticias'),
+(126, 'crear_segmento_vista', 'creacion de nuevos segmentos'),
+(127, 'gestion_segmentos_vista', 'gestionar segmentos existentes'),
+(128, 'movil_bitacora_vista', 'bitacora movil');
 
 -- --------------------------------------------------------
 
@@ -31955,7 +32074,14 @@ INSERT INTO `tbl_permisos_usuarios` (`Id_permisos_usuario`, `Id_rol`, `Id_objeto
 (318, 46, 113, '1', '1', '1', '1', '2021-06-04 22:32:29', ' ADMIN ', NULL, NULL),
 (319, 46, 114, '1', '1', '1', '1', '2021-06-04 23:33:33', ' ADMIN ', NULL, NULL),
 (320, 46, 115, '1', '1', '1', '1', '2021-06-04 23:33:41', ' ADMIN ', NULL, NULL),
-(321, 46, 116, '1', '1', '1', '1', '2021-06-04 23:33:45', ' ADMIN ', NULL, NULL);
+(321, 46, 116, '1', '1', '1', '1', '2021-06-04 23:33:45', ' ADMIN ', NULL, NULL),
+(322, 46, 122, '1', '1', '1', '1', '2021-06-13 18:52:22', NULL, NULL, '2021-06-13 18:52:22'),
+(324, 46, 123, '1', '1', '1', '1', '2021-06-13 19:04:39', NULL, NULL, '2021-06-13 19:04:39'),
+(325, 46, 124, '1', '1', '1', '1', '2021-06-13 19:09:17', NULL, NULL, '2021-06-13 19:09:17'),
+(326, 46, 125, '1', '1', '1', '1', '2021-06-13 19:09:39', NULL, NULL, '2021-06-13 19:09:39'),
+(327, 46, 126, '1', '1', '1', '1', '2021-06-13 19:15:10', NULL, NULL, '2021-06-13 19:15:10'),
+(328, 46, 127, '1', '1', '1', '1', '2021-06-13 19:15:27', NULL, NULL, '2021-06-13 19:15:27'),
+(329, 46, 128, '1', '1', '1', '1', '2021-06-14 06:25:29', NULL, NULL, '2021-06-14 06:25:29');
 
 -- --------------------------------------------------------
 
@@ -33332,7 +33458,6 @@ ALTER TABLE `tbl_movil_chats`
 --
 ALTER TABLE `tbl_movil_noticias`
   ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `id_UNIQUE` (`id`),
   ADD KEY `fk_tbl_movil_noticias_tbl_segmentos1_idx` (`segmento_id`);
 
 --
@@ -33674,7 +33799,7 @@ ALTER TABLE `tbl_aula`
 -- AUTO_INCREMENT de la tabla `tbl_bitacora`
 --
 ALTER TABLE `tbl_bitacora`
-  MODIFY `Id_bitacora` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24542;
+  MODIFY `Id_bitacora` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24588;
 
 --
 -- AUTO_INCREMENT de la tabla `tbl_cambio_carrera`
@@ -33923,6 +34048,24 @@ ALTER TABLE `tbl_modalidades_proyecto`
   MODIFY `Id_modalidad` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
+-- AUTO_INCREMENT de la tabla `tbl_movil_bitacoras`
+--
+ALTER TABLE `tbl_movil_bitacoras`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+
+--
+-- AUTO_INCREMENT de la tabla `tbl_movil_chats`
+--
+ALTER TABLE `tbl_movil_chats`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `tbl_movil_notificaciones`
+--
+ALTER TABLE `tbl_movil_notificaciones`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT de la tabla `tbl_municipios_hn`
 --
 ALTER TABLE `tbl_municipios_hn`
@@ -33938,7 +34081,7 @@ ALTER TABLE `tbl_nacionalidad`
 -- AUTO_INCREMENT de la tabla `tbl_objetos`
 --
 ALTER TABLE `tbl_objetos`
-  MODIFY `Id_objeto` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=122;
+  MODIFY `Id_objeto` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=129;
 
 --
 -- AUTO_INCREMENT de la tabla `tbl_parametros`
@@ -33962,7 +34105,7 @@ ALTER TABLE `tbl_periodo_plan`
 -- AUTO_INCREMENT de la tabla `tbl_permisos_usuarios`
 --
 ALTER TABLE `tbl_permisos_usuarios`
-  MODIFY `Id_permisos_usuario` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=322;
+  MODIFY `Id_permisos_usuario` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=330;
 
 --
 -- AUTO_INCREMENT de la tabla `tbl_personas`
