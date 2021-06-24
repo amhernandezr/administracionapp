@@ -24,7 +24,7 @@ if ($visualizacion == 0) {
 
 
   /* Manda a llamar todos las datos de la tabla para llenar el gridview  */
-  $sql_tabla_bitacora_movil = "select u.Usuario, b.accion, b.descripcion,Date_format(b.fecha,'%Y-%m-%d') as Fecha from tbl_usuarios u, tbl_movil_bitacoras b where u.Id_usuario=b.usuario_id ORDER BY b.fecha DESC";
+  $sql_tabla_bitacora_movil = "select u.Usuario, b.accion, b.descripcion,Date_format(b.fecha,'%Y-%m-%d %H:%i:%S') as Fecha from tbl_usuarios u, tbl_movil_bitacoras b where u.Id_usuario=b.usuario_id ORDER BY b.fecha DESC";
   $resultadotabla_bitacora = $mysqli->query($sql_tabla_bitacora_movil);
 
 
@@ -237,7 +237,7 @@ if ($visualizacion == 0) {
               <th>USUARIO</th>
               <th>ACCION</th>
               <th>DESCRIPCION</th>
-              <th>FECHA</th>
+              <th>FECHA y HORA</th>
             </tr>
           </thead>
           <tbody>
