@@ -1193,6 +1193,12 @@ INSERT INTO  tbl_roles(rol, descripcion, estado,Fecha_creacion,Creado_por)
 VALUES (n_rol, descripcionrol, estado_, sysdate()
 ,usuario_);
 end$$
+/*segmento */
+CREATE DEFINER=`root`@`localhost` PROCEDURE `proc_insertar_segmento`(`nombre` VARCHAR(150), `descripcion` VARCHAR(250), `creadopor` VARCHAR(150),`fechadecreacion` DATE )  BEGIN
+INSERT INTO  tbl_movil_segmentos(nombre, descripcion, creado por, fecha de creacion)
+VALUES (nombre, descripcion, creadopor, fechadecreacion );
+END$$
+
 
 CREATE DEFINER=`root`@`localhost` PROCEDURE `proc_insertar_subida_informacion` (IN `id_persona_` BIGINT(16))  begin
 INSERT INTO `tbl_subida_documentacion`( `id_persona`,`fecha_creacion`) VALUES (id_persona_,sysdate());
