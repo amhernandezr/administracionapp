@@ -63,7 +63,21 @@ if (permiso_ver('123') == '1') {
     align-items: center;
     justify-content: center;">
 
-
+<div class="col-12 col-sm-6 col-md-4">
+              <div class="small-box bg-primary">
+                <div class="inner">
+                  <h4>Crear Notificacion </h4>
+                  <p><?php echo $_SESSION['crear_notificaciones_vista']; ?></p>
+                </div>
+                <div class="icon">
+                  <i class="fas fa-bell"></i>
+                </div>
+                <a href="../vistas/movil_crear_notificacion_vista.php" class="small-box-footer">
+                  Ir <i class="fas fa-arrow-circle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
 
             <div class="col-12 col-sm-6 col-md-4">
               <div class="small-box bg-primary">
